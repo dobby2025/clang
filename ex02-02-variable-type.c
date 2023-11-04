@@ -11,6 +11,7 @@ C언어 기본 자료형 종류
         long long       8byte 이상
     - 실수
         float           4byte   ±3.4X10^(-37) ~ ±3.4X10^(+38)   6-9 자리
+                        (float 자료혀은 숫자 뒤에 f를 붙인다)
         double          8byte   ±1.7X10^(-307) ~ ±1.7X10^(+308) 14-17 자리
         long double     8byte 이상 double 이상의 표현범위
 
@@ -27,6 +28,10 @@ int main(void)
     char ch1 = 66, ch2 = 'B';
     short sh1 = 67;
     int in1 = 68;
+
+    float f = 3.14f; 
+
+    printf("f: %f\n", f);
 
     long ln1 = 2147483678;
     printf("%d\n", ln1);    // -2147483618

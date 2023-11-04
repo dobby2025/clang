@@ -19,7 +19,7 @@ printf() 함수
     %u : 부호없는 10진수
     %o : 부호없는 8진수
     %x : 부호없는 16진수
-    %f : 10진수 방식의 부동소수점 실수
+    %f : 10진수 방식의 부동소수점 실수 (기본 소수점이하 6자리 표현)
     %e : 지수 방식의 부동소수점 실수
     %c : 값에 대응하는 문자
     %s : 문자열
@@ -60,7 +60,7 @@ int main(void)
     printf("%f\n", dnumber);
     printf("%e\n", dnumber);
 
-    float fnum = 1.23456789;
+    float fnum = 1.2345678f;
     printf("%10f\n", fnum);
     printf("%-10f\n", fnum);
     printf("%10.3f\n", fnum);

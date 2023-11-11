@@ -29,6 +29,7 @@ int main(void)
     // 포인터 기반 문자열 변수
     // bad[0] = 'S';    // 값 변경 불가능
     bad = "New Bad";    // 변경 가능
+    char *newbad = "New Bad";
 
     printf("2-1: %s\n", good);
     printf("2-2: %s\n", bad);

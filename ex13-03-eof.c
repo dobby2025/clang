@@ -18,15 +18,19 @@ EOF 입력방법:
 int main(void)
 {
     int ch;
+    
     while(1)
     {
-        ch = getchar();
-        if (ch == EOF)
-            break;
+        ch = getchar(); 
+        if (ch == EOF) {
+            break;    
+        }
         
+        putchar('|');
         putchar(ch);
 
     }
 
     return 0;
 }
+

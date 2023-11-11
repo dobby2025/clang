@@ -50,11 +50,5 @@ int main(void)
     printf("%s\n", str3);
 
 
-
-
-
-
-
-
     return 0;
 }

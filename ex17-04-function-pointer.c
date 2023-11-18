@@ -23,5 +23,8 @@ int main(void)
     */
     int (*fptr)(int, int);
 
+    fptr = myFunc;  // 함수 포인터 저장!
+    fptr(9, 6);
+
     return 0;
 }

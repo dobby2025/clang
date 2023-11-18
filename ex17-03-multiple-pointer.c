@@ -10,6 +10,7 @@ int main(void)
 {
 
     int num = 999;
+    printf("%p\n", num);
     int *ptr = &num;
     int **dptr = &ptr;
     int ***tptr = &dptr;

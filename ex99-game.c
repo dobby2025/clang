@@ -27,7 +27,7 @@ void initGame() {
     prevBallX = ballX;        // 이전 공 위치 초기화
     prevBallY = ballY;
     paddleX = WIDTH / 2 - 3;  // 패들의 초기 X 좌표를 설정
-    paddleY = HEIGHT - 1;     // 패들의 초기 Y 좌표를 설정
+    paddleY = HEIGHT - 2;     // 패들의 초기 Y 좌표를 설정
     prevPaddleX = paddleX;    // 이전 패들 위치 초기화
     prevPaddleY = paddleY;
     paddleLength = 6;         // 패들의 길이를 설정

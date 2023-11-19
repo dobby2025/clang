@@ -21,7 +21,6 @@ void runFunc(int (*fptr)(int, int), int num1, int num2)
 
 int main(void)
 {
-    
     /*
         매개변수로 int형 변수 두개 선언되어 있고,
         int형 데이터를 반환하는 함수의 주소를 저장할 수 있는
